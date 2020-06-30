@@ -109,7 +109,17 @@ learning rate = 1e-4
 
 
 ## Evaluate the model using validation Dataset 
-<br>
-![accuracy vs epoch](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/accvsepoch.PNG)
-<br>
-![loss vs epoch](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/lossvsepoch.PNG)
+![accuracy-vs-epoch](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/accvsepoch.PNG)
+![loss-vs-epoch](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/lossvsapoch.PNG)
+
+
+## Test The model using Test Dataset
+Test Dataset is consists of 12630 images<br>
+This model successfully predicted 12299 images<br>
+hence accuracy on the Test Dataset is 97.38 whic is pretty good.
+
+## Conclusion
+Using Convolution Neural Network model Trained fast and give better results then using Feed Forward Neural Network.<br>
+Using lower learning rate in the start of training model learned slow and have to tarin for larger epochs.<br>
+but using higher learning rate of 1e-3 model reached to 95% in just one epoch.<br>
+

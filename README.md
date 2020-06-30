@@ -119,7 +119,7 @@ This model successfully predicted 12299 images<br>
 hence accuracy on the Test Dataset is 97.38 whic is pretty good.
 
 ## Conclusion
-Using Convolution Neural Network model Trained fast and give better results then using Feed Forward Neural Network.<br>
+Using Convolution Neural Network model Trained faster and give better results then using Feed Forward Neural Network.<br>
 Using lower learning rate in the start of training model learned slow and have to tarin for larger epochs.<br>
 but using higher learning rate of 1e-3 model reached to 95% in just one epoch.<br>
 

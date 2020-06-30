@@ -57,14 +57,14 @@ Since there's no predefined validation set, we can set aside a small portion (92
 
 ## Dataset visualization
 **Count Per Class:**<br>
-![Count Per Class](https://drive.google.com/file/d/1rWrshpDbewc-SM5H2WGiC5oy2D_iwJ-c/view?usp=sharing)
+![Count Per Class](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/countperclass.PNG)
 
 **Single Image form the Training Dataset**<br>
-
-
+![Single Image](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/singleimage.PNG)
 
 **Batch Size: 200**<br>
 Images in a batch:<br>
+![Grid Image](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/gridimage.PNG)
 
 
 ## Define the model:
@@ -75,20 +75,20 @@ I used CNN(Convolutional Neural Network) to classify the images in the dataset.<
 **A Convolutional Neural Network** (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.<br><br>
 **Batch Normalization** is a technique for improving the speed, performance, and stability of artificial neural networks.<br><br>
 **MyCnnModel(
-  (conv1): Conv2d(3, 64, kernel_size=(5, 5), stride=(1, 1))
-  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
-  (conv2): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))
-  (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-  (conv3): Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1))
-  (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-  (la1): Linear(in_features=2304, out_features=512, bias=True)
-  (bn4): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-  (la2): Linear(in_features=512, out_features=128, bias=True)
-  (bn5): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-  (la3): Linear(in_features=128, out_features=43, bias=True)
-  (dropout): Dropout(p=0.25, inplace=False)
-)**
-
+  (conv1): Conv2d(3, 64, kernel_size=(5, 5), stride=(1, 1))<br>
+  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)<br>
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)<br>
+  (conv2): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))<br>
+  (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)<br>
+  (conv3): Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1))<br>
+  (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)<br>
+  (la1): Linear(in_features=2304, out_features=512, bias=True)<br>
+  (bn4): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)<br>
+  (la2): Linear(in_features=512, out_features=128, bias=True)<br>
+  (bn5): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)<br>
+  (la3): Linear(in_features=128, out_features=43, bias=True)<br>
+  (dropout): Dropout(p=0.25, inplace=False)<br>
+)**<br>
+<br>
 
 ## Train The Model

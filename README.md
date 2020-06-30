@@ -124,3 +124,6 @@ Using Convolution Neural Network model Trained faster and give better results th
 Using lower learning rate in the start of training model learned slow and have to tarin for larger epochs.<br>
 but using higher learning rate of 1e-3 model reached to 95% in just one epoch.<br>
 
+## link to the project
+[Jovain.ml Notebbok](https://jovian.ml/shazaibahmad3/traffic-sign-classification)
+

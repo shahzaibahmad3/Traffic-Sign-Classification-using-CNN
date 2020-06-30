@@ -11,8 +11,8 @@ Dataset is available at: [GTSRB - German Traffic Sign Recognition Benchmark](htt
 
 I used Convolution Neural Network Model to Classify the Dataset.<br>
 **I was able to reach**<br>
-**99.83% accuarcy for the validation dataset**<br>
-**97.35% accuarcy for the test dataset**<br>
+**99.82% accuarcy for the validation dataset**<br>
+**97.37% accuarcy for the test dataset**<br>
 
 **Process Used:**
 * Load the data
@@ -73,7 +73,9 @@ Images in a batch:<br>
 
 I used CNN(Convolutional Neural Network) to classify the images in the dataset.<br><br>
 **A Convolutional Neural Network** (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.<br><br>
-**Batch Normalization** is a technique for improving the speed, performance, and stability of artificial neural networks.<br><br>
+**Batch Normalization** is a technique for improving the speed, performance, and stability of artificial neural networks.It is used to normalize the input layer by re-centering and re-scaling<br><br>
+**Max Pooling** Max pooling is a sample-based discretization process. The objective is to down-sample an input representation (image, hidden-layer output matrix, etc.), reducing its dimensionality.<br><br>
+
 **MyCnnModel(
   (conv1): Conv2d(3, 64, kernel_size=(5, 5), stride=(1, 1))<br>
   (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)<br>
@@ -92,3 +94,22 @@ I used CNN(Convolutional Neural Network) to classify the images in the dataset.<
 <br>
 
 ## Train The Model
+* Train-1
+number of epochs = 8
+optimization function = torch.optim.Adam
+learning rate = 1e-3
+![train-1](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/train1.PNG)
+
+
+* Train-1
+number of epochs = 5
+optimization function = torch.optim.Adam
+learning rate = 1e-4
+![train-2](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/train2.PNG)
+
+
+## Evaluate the model using validation Dataset 
+<br>
+![accuracy vs epoch](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/accvsepoch.PNG)
+<br>
+![loss vs epoch](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/lossvsepoch.PNG)

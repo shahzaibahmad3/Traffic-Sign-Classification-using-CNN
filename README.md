@@ -95,21 +95,22 @@ I used CNN(Convolutional Neural Network) to classify the images in the dataset.<
 
 ## Train The Model
 * Train-1
-number of epochs = 8
-optimization function = torch.optim.Adam
-learning rate = 1e-3
+**number of epochs = 8<br>
+optimization function = torch.optim.Adam<br>
+learning rate = 1e-3<br>**
 ![train-1](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/train1.PNG)
 
 
 * Train-1
-number of epochs = 5
-optimization function = torch.optim.Adam
-learning rate = 1e-4
+**number of epochs = 5<br>
+optimization function = torch.optim.Adam<br>
+learning rate = 1e-4<br>**
 ![train-2](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/train2.PNG)
 
 
 ## Evaluate the model using validation Dataset 
 ![accuracy-vs-epoch](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/accvsepoch.PNG)
+<br>
 ![loss-vs-epoch](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/lossvsapoch.PNG)
 
 

@@ -94,14 +94,14 @@ I used CNN(Convolutional Neural Network) to classify the images in the dataset.<
 <br>
 
 ## Train The Model
-* Train-1
+* Train-1<br>
 **number of epochs = 8<br>
 optimization function = torch.optim.Adam<br>
 learning rate = 1e-3<br>**
 ![train-1](https://raw.githubusercontent.com/shahzaibahmad3/Traffic-Sign-Classification-using-CNN/master/train1.PNG)
 
 
-* Train-1
+* Train-2<br>
 **number of epochs = 5<br>
 optimization function = torch.optim.Adam<br>
 learning rate = 1e-4<br>**
